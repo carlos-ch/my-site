@@ -4,7 +4,7 @@ export default function About() {
   return (
     <Layout title="About">
       <div className="min-h-full">
-        <h1 className="text-2xl font-bold sm:text-4xl">About Lorem Ipsum</h1>
+        <h1 className="text-4xl font-bold ">About Lorem Ipsum</h1>
         <h2>Website content</h2>
         <div className="py-8 text-base leading-6 space-y-4 text-gray-700 sm:text-lg sm:leading-7">
           <p>

@@ -3,13 +3,15 @@ import Navbar from './Navbar';
 
 export default function Layout({ title, children }) {
   return (
-    <div className="bg-red-300 h-screen">
+    <div className="bg-indigo-50 min-h-screen">
       <Head>
         <title>{title}</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <main className=" pt-32 container mx-auto max-w-xl">{children}</main>
+      <main className=" pt-32 px-4 container text-center max-w-xl">
+        {children}
+      </main>
     </div>
   );
 }

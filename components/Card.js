@@ -2,8 +2,8 @@ import Image from 'next/image';
 
 export default function Card({ src, children }) {
   return (
-    <article>
-      <figure className="relative max-w-xs cursor-pointer">
+    <article className="mt-8">
+      <figure className="relative max-w-md cursor-pointer">
         <img
           className="rounded-lg shadow-xl hover:shadow-2xl"
           src={src}

@@ -5,11 +5,9 @@ export default function Contact() {
   return (
     <div>
       <Layout title="Contact">
-        <h1 className="text-center text-2xl font-bold sm:text-4xl">
-          Contact me
-        </h1>
-        <Footer />
+        <h1 className="text-4xl font-bold sm:text-4xl">Contact me</h1>
       </Layout>
+      <Footer />
     </div>
   );
 }
