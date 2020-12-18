@@ -9,6 +9,9 @@ module.exports = {
       margin: {
         spaced: 'calc(16% - 1rem)',
       },
+      colors: {
+        'gray-text': '#3b3c40',
+      },
     },
     backgroundPosition: {
       GitHub: 'left',

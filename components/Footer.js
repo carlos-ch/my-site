@@ -6,7 +6,7 @@ const links = [
 
 export default function Footer() {
   return (
-    <div className="absolute w-full bg-gray-200 px-8 py-6 bottom-0">
+    <div className="absolute w-full text-gray-text bg-gray-200 px-8 py-6 bottom-0">
       <dl className="flex justify-center  sm:float-right  mt-8 mb-12">
         {links.map(({ href, label }) => (
           <dt className="inline-block mx-spaced sm:mr-8">

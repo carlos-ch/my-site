@@ -2,10 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-p,
-h1,
-h2,
-h3,
-h4 {
-  color: #2b2b2b;
+@font-face {
+  font-family: '2e6c8aa1b81be890899b2183047c5';
+  src: url('//fast.fonts.net/dv2/3/fcb50c8b-04fc-453b-b49c-227c6dc45e69.woff?d44f19a684109620e4841471ae90e8186df205ea3b7e1c0d250a32d125adc27a69c5a6864d6ab62481f78c18b7a346bdbe432e4146d4f31e17e2d0f3f127fdd2eb43afc4cbcc0f9cb967ecc47dd3d385feb313630217444a5d')
+    format('woff');
+}
+@font-face {
+  font-family: 'FSFallback';
+  src: url('/fonts/fsfallback.woff') format('woff');
+  unicode-range: U+0-7FF;
+}
+.webfont-2e6c8aa1b81be890899b2183047c5d1f {
+  font-family: '2e6c8aa1b81be890899b2183047c5', 'FSFallback';
 }
