@@ -18,6 +18,11 @@ module.exports = {
       LinkedIn: 'center',
       Twitter: 'right',
     },
+    fontFamily: {
+      display: ['Rubik', 'sans'],
+      heading: ['FFDin', 'sans'],
+      body: ['Open Sans', 'sans'],
+    },
   },
   variants: {
     extend: {},

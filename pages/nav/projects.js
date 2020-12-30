@@ -5,7 +5,9 @@ export default function Projects() {
   return (
     <div className="min-h-full">
       <Layout title="Projects">
-        <h1 className=" text-4xl font-bold sm:text-4xl">My Portfolio</h1>
+        <h1 className=" text-4xl font-bold font-heading sm:text-4xl">
+          My Portfolio
+        </h1>
         <section className="flex flex-wrap items-center justify-center h-full">
           <Card src="https://picsum.photos/seed/picsum/450/300">
             <p>To-do list</p>
